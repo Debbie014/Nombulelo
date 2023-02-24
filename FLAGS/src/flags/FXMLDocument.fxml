@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.shape.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="539.0" prefWidth="541.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="flags.FXMLDocumentController">
+   <children>
+      <Rectangle fx:id="RECT1" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="109.0" layoutX="25.0" layoutY="130.0" stroke="BLACK" strokeType="INSIDE" width="282.0" />
+      <Rectangle fx:id="RECT2" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="109.0" layoutX="25.0" layoutY="239.0" stroke="BLACK" strokeType="INSIDE" width="282.0" />
+      <Rectangle fx:id="RECT3" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="109.0" layoutX="25.0" layoutY="348.0" stroke="BLACK" strokeType="INSIDE" width="282.0" />
+      <Button fx:id="lesothoButton" layoutX="37.0" layoutY="57.0" mnemonicParsing="false" onAction="#lesotho" text="LESOTHO">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Button>
+      <Button fx:id="netherlandsButton" layoutX="242.0" layoutY="57.0" mnemonicParsing="false" onAction="#netherlands" text="NETHERLANDS">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Button>
+      <Button fx:id="hungaryButton" layoutX="335.0" layoutY="143.0" mnemonicParsing="false" onAction="#hungary" text="HUNGARY">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Button>
+      <Button fx:id="seirraButton" layoutX="335.0" layoutY="239.0" mnemonicParsing="false" onAction="#seirra" text="SEIRRA LEONE">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Button>
+      <Button fx:id="luxemButton" layoutX="335.0" layoutY="323.0" mnemonicParsing="false" onAction="#luxem" text="LUXEMBOURG">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Button>
+      <Button fx:id="clearButton" layoutX="339.0" layoutY="440.0" mnemonicParsing="false" onAction="#clear" text="CLEAR">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
